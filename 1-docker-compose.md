@@ -87,3 +87,4 @@ docker compose ps
 ```
 docker compose down
 ```
+<img width="1357" height="193" alt="{6E067E68-79E1-4414-A304-BE21C37C6AB5}" src="https://github.com/user-attachments/assets/ea293165-6fe7-4ead-ad8d-7ed0f8ecb888" />
