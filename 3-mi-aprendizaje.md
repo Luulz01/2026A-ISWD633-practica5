@@ -1,7 +1,7 @@
 # MI APRENDIZAJE
 En esta práctica se implementó Docker Compose, lo que permitió definir y gestionar múltiples contenedores de manera estructurada en un solo archivo YAML. Comprendí cómo automatizar la creación y ejecución de servicios interdependientes como MySQL y WordPress, facilitando el despliegue de aplicaciones completas con un solo comando.
 
-Además, reforcé el uso de variables de entorno para configurar servicios, así como la importancia de mantener coherencia entre ellas para garantizar la correcta comunicación entre contenedores. Otro aspecto importante fue la implementación de healthchecks, que permiten verificar el estado de los servicios y asegurar que dependencias como WordPress solo se inicien cuando la base de datos esté completamente operativa. Asimismo, comprendí el uso de la directiva depends_on con la condición service_healthy, lo cual mejora la estabilidad del sistema.
+Además, reforcé el uso de variables de entorno para configurar servicios, así como la importancia de mantener coherencia entre ellas para garantizar la correcta comunicación entre contenedores. Otro aspecto importante fue la implementación de healthchecks, que permiten verificar el estado de los servicios y asegurar que dependencias como WordPress solo se inicien cuando la base de datos esté completamente operativa. 
 
 ### Conocimientos previos
 - Creación y ejecución de contenedores con Docker.
@@ -42,7 +42,7 @@ Muestra los registros de un contenedor para identificar errores.
 
 
 ### Problema
-**1)**
+**1) Inconveniente con la versión imagen**
 Durante la práctica de configuración de SonarQube con Docker Compose se presentó un inconveniente relacionado con la compatibilidad de versiones de las imágenes. Inicialmente se utilizó una versión de SonarQube que no era totalmente compatible con la versión de PostgreSQL definida en el archivo compose.yaml, lo que provocó errores en la conexión a la base de datos y fallos durante el arranque del contenedor.
 
 <img width="1092" height="293" alt="{C4CF9CCC-DA88-4C56-BFF9-EA391D77C46D}" src="https://github.com/user-attachments/assets/8a27561b-164a-4d9d-8335-ff360909fb95" />
@@ -57,12 +57,14 @@ La solución consistió en investigar la documentación oficial y ajustar las ve
 <img width="771" height="644" alt="{FD9ACACD-D9CE-4770-B31C-EEB46798D848}" src="https://github.com/user-attachments/assets/c72a07ec-3c9d-4d2d-9055-e65cec3832e7" />
 
 
-**2)**
-Problema con las credenciales iniciales
+**2) Credenciales incorrectas**
+
+Problema con las credenciales iniciales al iniciar en SonarQube, porque las credenciales primeras que se deben usar es admin/admin y luego configurar la contraseña que se desea.
 
 <img width="1791" height="891" alt="{B92B8D36-7480-4C9E-85C4-93BC53F11986}" src="https://github.com/user-attachments/assets/51c79aa9-ae0c-44bc-89d5-767d74fc4da2" />
 
-era admin, admin
+
+admin/admin - contraseña inicial
 
 <img width="1773" height="791" alt="{029922B6-8ECC-4AE7-8524-5577B4D68721}" src="https://github.com/user-attachments/assets/cbb18078-06d7-479d-94a8-83b77d166625" />
 
