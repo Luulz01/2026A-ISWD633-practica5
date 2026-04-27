@@ -65,6 +65,8 @@ docker compose up -d
 **Descarga archivo compose.yaml**
 <img width="714" height="321" alt="{1ED8518B-48A4-42A1-9608-EA2B9779BC06}" src="https://github.com/user-attachments/assets/b09c79d5-5a63-491e-94ae-04daaf8f8224" />
 
+**Ejecución comando**
+<img width="1105" height="339" alt="{0FD6DD55-2FB6-4A48-B310-19E24A84796E}" src="https://github.com/user-attachments/assets/4910c30e-8d57-4e51-83ab-daca379880d4" />
 
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
