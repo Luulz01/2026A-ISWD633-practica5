@@ -62,6 +62,10 @@ Para ejecutar en modo "detached" (en segundo plano) se agrega la opción -d:
 docker compose up -d
 ```
 
+**Descarga archivo compose.yaml**
+<img width="714" height="321" alt="{1ED8518B-48A4-42A1-9608-EA2B9779BC06}" src="https://github.com/user-attachments/assets/b09c79d5-5a63-491e-94ae-04daaf8f8224" />
+
+
 ### Ejecutar Docker compose para servicios que no se crearon correctamente
 Si algún servicio no se creó correctamente se puede usar
 ```
