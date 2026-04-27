@@ -1,7 +1,12 @@
 # COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+
+
+
+
 Problema con las credenciales iniciales
+
+<img width="1791" height="891" alt="{B92B8D36-7480-4C9E-85C4-93BC53F11986}" src="https://github.com/user-attachments/assets/51c79aa9-ae0c-44bc-89d5-767d74fc4da2" />
+
 era admin, admin
 
 <img width="1773" height="791" alt="{029922B6-8ECC-4AE7-8524-5577B4D68721}" src="https://github.com/user-attachments/assets/cbb18078-06d7-479d-94a8-83b77d166625" />
