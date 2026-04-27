@@ -26,7 +26,7 @@ Ejecuta los servicios definidos en el archivo compose.yaml en segundo plano.
 Muestra el estado de los contenedores creados por Docker Compose.
 - **docker compose down:**
 Detiene y elimina los contenedores, redes y recursos creados.
-- **docker compose up -d <servicio>:**
+- **docker compose up -d "<servicio>":**
 Permite levantar un servicio específico en caso de fallos.
 - **docker logs <nombre_contenedor>:**
 Muestra los registros de un contenedor para identificar errores.
