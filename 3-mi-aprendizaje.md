@@ -43,6 +43,7 @@ Muestra los registros de un contenedor para identificar errores.
 
 ### Problema
 **1) Inconveniente con la versión imagen**
+
 Durante la práctica de configuración de SonarQube con Docker Compose se presentó un inconveniente relacionado con la compatibilidad de versiones de las imágenes. Inicialmente se utilizó una versión de SonarQube que no era totalmente compatible con la versión de PostgreSQL definida en el archivo compose.yaml, lo que provocó errores en la conexión a la base de datos y fallos durante el arranque del contenedor.
 
 <img width="1092" height="293" alt="{C4CF9CCC-DA88-4C56-BFF9-EA391D77C46D}" src="https://github.com/user-attachments/assets/8a27561b-164a-4d9d-8335-ff360909fb95" />
