@@ -1,4 +1,5 @@
 # MI APRENDIZAJE
+**Nombre:** Lizeth Hernández
 En esta práctica se implementó Docker Compose, lo que permitió definir y gestionar múltiples contenedores de manera estructurada en un solo archivo YAML. Comprendí cómo automatizar la creación y ejecución de servicios interdependientes como MySQL y WordPress, facilitando el despliegue de aplicaciones completas con un solo comando.
 
 Además, reforcé el uso de variables de entorno para configurar servicios, así como la importancia de mantener coherencia entre ellas para garantizar la correcta comunicación entre contenedores. Otro aspecto importante fue la implementación de healthchecks, que permiten verificar el estado de los servicios y asegurar que dependencias como WordPress solo se inicien cuando la base de datos esté completamente operativa. 
