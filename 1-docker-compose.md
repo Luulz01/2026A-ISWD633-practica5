@@ -17,8 +17,29 @@ El archivo compose.yaml permitirá configurar dos servicios de acuerdo con el si
 
 ### Revise el archivo archivo compose.yaml y complete solamente las partes que solicitan <valor>, para eso considerar:
 - La clave **services** define los servicios (contenedores) que conforman tu aplicación. Cada servicio se describe con un nombre único y contiene configuraciones específicas como la imagen de Docker que debe usar, los volúmenes, las redes, las variables de entorno, y más. Para el ejercicio es necesario definir dos servicios: mysql-service y wordpress-service.
+
+**mysql-service**
+<img width="629" height="447" alt="{532F1876-A7CF-4395-8669-FCD90DF13C73}" src="https://github.com/user-attachments/assets/4a5e98da-97c6-400c-9492-6b662c134194" />
+
+**wordpress-service**
+<img width="389" height="282" alt="{D48237EA-7EDE-4330-9A04-DEE56EAA12CC}" src="https://github.com/user-attachments/assets/a549c8fc-35db-4a47-a706-64b000f469ff" />
+
+
 - Es necesario configurar las variables de entorno para cada uno de los contenedores
+
+**mysql-container**
+
+<img width="372" height="141" alt="{7570B670-7509-450D-9BB1-D07C619AADA7}" src="https://github.com/user-attachments/assets/8d32d5ae-d297-4cbf-85c7-bd21e8bc47da" />
+
+
+**wordpress-container**
+
+<img width="366" height="194" alt="{9A6E4DA4-A4BE-4E36-B82F-30A818521B44}" src="https://github.com/user-attachments/assets/90b35516-b3d0-47fa-8849-8f15ddf9db1e" />
+
 - Realizar el mapeo de puertos para Wordpress host:contenedor
+
+<img width="323" height="113" alt="{8CD777F7-6912-4235-830D-2128CFEA8E34}" src="https://github.com/user-attachments/assets/82eb498a-b6db-464c-ac19-8b71182b4fac" />
+
 - Healthcheck de cada uno de los servicios.
     - Línea 17 test: ["CMD", "mysqladmin", "ping", "-h", "localhost"] para verificar si el servidor MySQL está en funcionamiento y puede responder a las solicitudes de ping.
     - Línea 38 test: ["CMD", "curl", "-f", "http://localhost"] para verificar si un servidor HTTP en el contenedor está funcionando y respondiendo correctamente.
@@ -26,7 +47,13 @@ El archivo compose.yaml permitirá configurar dos servicios de acuerdo con el si
   - depends_on: Establece dependencias entre servicios. El servicio actual **wordpress-service** depende del servicio **mysql-service**. Podemos usar los nombres directamente ya que ambos contenedores pertenecen a la red de tipo bridge.
   - condition: service_healthy significa que el servicio actual solo se iniciará después de que el servicio mysql-service esté en un estado saludable, es decir, después de que pase su healthcheck.
 - Línea 43 es necesario que el wordpress-container se encuentre disponible en todo momento, defina una política de reinicio adecuada para esto
+
+<img width="482" height="238" alt="{47ADC68C-A62F-4A75-8C04-2529585630DA}" src="https://github.com/user-attachments/assets/ac112fc5-0921-42c6-9afa-8979622e7aee" />
+
 - wordpress-vol y mysql-vol son volúmenes nombrados.
+<img width="340" height="69" alt="{AA0B45B7-6A0F-492D-88DF-261307B64C6E}" src="https://github.com/user-attachments/assets/181fd91d-3b48-4421-a117-75b2e3335558" />
+
+<img width="347" height="82" alt="{3CD7D859-CEC3-44F1-B3F5-10FE5A67C35E}" src="https://github.com/user-attachments/assets/9239e1f9-927e-4a61-9e04-078b082dadd5" />
 
 ### Ejecutar Docker compose
 Este comando descargará las imágenes necesarias, creará y ejecutará los contenedores según lo definido en el archivo compose.yaml
