@@ -26,3 +26,4 @@ Acceso: http://localhost:9000
 
 <img width="1773" height="791" alt="{029922B6-8ECC-4AE7-8524-5577B4D68721}" src="https://github.com/user-attachments/assets/88cc5d7e-2011-4d97-a25c-dd1e660e5ae0" />
 
+<img width="1896" height="950" alt="{EC9787AF-2408-4DB1-B37B-978507ED3ADC}" src="https://github.com/user-attachments/assets/6431a8c9-43f9-45e6-bb0c-3bf0cd4f557f" />
