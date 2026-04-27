@@ -52,6 +52,9 @@ Durante la práctica de configuración de SonarQube con Docker Compose se presen
 
 La solución consistió en investigar la documentación oficial y ajustar las versiones de las imágenes utilizadas, seleccionando combinaciones compatibles por ejemplo, SonarQube Community con PostgreSQL 15. Una vez corregido esto, los servicios lograron comunicarse correctamente y el sistema inició sin errores.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/788be276-0168-4a02-985e-561b3fba7883" />
+
+<img width="771" height="644" alt="{FD9ACACD-D9CE-4770-B31C-EEB46798D848}" src="https://github.com/user-attachments/assets/c72a07ec-3c9d-4d2d-9055-e65cec3832e7" />
 
 
 **2)**
